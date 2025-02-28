@@ -1,0 +1,132 @@
+::ffff:127.0.0.1 - - [25/Feb/2025:09:13:58 +0000] "GET /products HTTP/1.1" 200 44275 "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:09:14:20 +0000] "GET /products HTTP/1.1" 200 156377 "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:09:26:55 +0000] "GET /products HTTP/1.1" 200 44275 "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:09:32:31 +0000] "GET /products HTTP/1.1" 200 44275 "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:09:37:27 +0000] "GET /products HTTP/1.1" 200 44275 "-" "curl/8.1.2"
+[2025-02-25T09:48:35.186Z] [CACHE MISS] GET /products - Cache MISS
+::ffff:127.0.0.1 - - [25/Feb/2025:09:48:37 +0000] "GET /products HTTP/1.1" 200 44275 "-" "curl/8.1.2"
+[2025-02-25T09:48:57.690Z] [CACHE HIT] GET /products - Cache MISS
+::ffff:127.0.0.1 - - [25/Feb/2025:09:48:57 +0000] "GET /products HTTP/1.1" 200 156377 "-" "curl/8.1.2"
+[2025-02-25T09:49:11.489Z] [CACHE HIT] GET /products - Cache MISS
+::ffff:127.0.0.1 - - [25/Feb/2025:09:49:11 +0000] "GET /products HTTP/1.1" 200 156377 "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:10:18:17 +0000] "GET /products HTTP/1.1" - - "-" "curl/8.1.2"
+::ffff:127.0.0.1 - - [25/Feb/2025:10:21:00 +0000] "GET /products HTTP/1.1" - - "-" "curl/8.1.2"
+[2025-02-25T10:24:09.227Z] [ERROR] GET /products - The client is closed
+[2025-02-25T10:24:44.690Z] [ERROR] GET /products - The client is closed
+[2025-02-25T10:25:16.522Z] [ERROR] GET /products - The client is closed
+[2025-02-25T10:27:20.224Z] [CACHE MISS] GET /products
+[2025-02-25T10:29:26.226Z] [CACHE MISS] GET /products
+[2025-02-25T10:29:40.818Z] [CACHE HIT] GET /products
+[2025-02-25T10:29:45.456Z] [CACHE HIT] GET /products
+[2025-02-25T10:36:09.303Z] [CACHE MISS] GET /products
+[2025-02-25T10:40:35.181Z] [CACHE MISS] GET /products
+[2025-02-25T10:40:42.699Z] [CACHE HIT] GET /products
+[2025-02-25T10:40:44.861Z] [CACHE HIT] GET /products
+[2025-02-25T10:40:46.676Z] [CACHE HIT] GET /products
+[2025-02-25T10:42:18.853Z] [CACHE MISS] GET /products
+[2025-02-25T10:42:24.733Z] [CACHE HIT] GET /products
+[2025-02-25T10:43:21.574Z] [CACHE MISS] GET /products
+[2025-02-25T11:43:39.688Z] [CACHE MISS] GET /products
+[2025-02-25T11:49:17.035Z] [CACHE MISS] GET /products
+[2025-02-25T11:49:37.908Z] [CACHE HIT] GET /products
+[2025-02-25T11:49:50.597Z] [CACHE HIT] GET /products
+[2025-02-25T12:01:54.171Z] [CACHE MISS] GET /products
+[2025-02-26T07:10:42.460Z] [CACHE MISS] GET /products
+[2025-02-26T07:10:58.440Z] [CACHE MISS] GET /
+[2025-02-26T07:14:03.318Z] [CACHE MISS] GET /products
+[2025-02-26T07:17:03.436Z] [CACHE MISS] GET /products
+[2025-02-26T07:17:06.547Z] [CACHE HIT] GET /products
+[2025-02-26T11:25:46.653Z] [CACHE MISS] GET /products
+[2025-02-26T11:25:51.078Z] [CACHE HIT] GET /products
+[2025-02-26T11:25:52.240Z] [CACHE HIT] GET /products
+[2025-02-26T11:25:53.224Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:41.746Z] [CACHE MISS] GET /products
+[2025-02-26T11:37:45.042Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:45.953Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:46.603Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:47.118Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:47.605Z] [CACHE HIT] GET /products
+[2025-02-26T11:37:48.187Z] [CACHE HIT] GET /products
+[2025-02-26T12:03:02.469Z] [CACHE MISS] GET /products
+[2025-02-26T12:03:05.317Z] [ERROR] GET /products - MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+[2025-02-26T12:03:40.866Z] [CACHE MISS] GET /products
+[2025-02-26T12:03:44.253Z] [CACHE HIT] GET /products
+[2025-02-26T12:03:45.688Z] [CACHE HIT] GET /products
+[2025-02-26T12:03:56.473Z] [CACHE HIT] GET /products
+[2025-02-26T12:10:47.347Z] [CACHE MISS] GET /products?ttl=30
+[2025-02-26T12:11:01.795Z] [CACHE MISS] GET /products
+[2025-02-26T12:11:06.469Z] [CACHE HIT] GET /products
+[2025-02-26T12:11:08.027Z] [CACHE HIT] GET /products
+[2025-02-26T12:17:36.791Z] [CACHE MISS] GET /products
+[2025-02-26T12:17:41.429Z] [CACHE HIT] GET /products
+[2025-02-26T12:17:43.006Z] [CACHE HIT] GET /products
+[2025-02-26T12:17:54.714Z] [CACHE MISS] GET /clear-cache
+[2025-02-26T12:17:58.057Z] [ERROR] GET /clear-cache - Request failed with status code 404
+[2025-02-26T12:20:00.227Z] [CACHE MISS] GET /products
+[2025-02-26T12:20:03.054Z] [CACHE HIT] GET /products
+[2025-02-26T12:20:04.204Z] [CACHE HIT] GET /products
+[2025-02-26T13:10:16.515Z] [CACHE MISS] GET /products
+[2025-02-26T13:10:20.461Z] [CACHE HIT] GET /products
+[2025-02-26T13:13:13.420Z] [CACHE MISS] GET /products
+[2025-02-26T13:13:16.786Z] [CACHE HIT] GET /products
+[2025-02-26T13:13:18.128Z] [CACHE HIT] GET /products
+[2025-02-26T13:13:22.433Z] [CACHE MISS] GET /products/stats
+[2025-02-26T13:13:24.579Z] [ERROR] GET /products/stats - Request failed with status code 404
+[2025-02-28T07:29:10.171Z] [CACHE MISS] GET /products
+[2025-02-28T07:29:14.392Z] [CACHE HIT] GET /products
+[2025-02-28T07:29:15.636Z] [CACHE HIT] GET /products
+[2025-02-28T07:29:23.513Z] [CACHE HIT] GET /products
+[2025-02-28T07:29:49.219Z] [CACHE MISS] GET /products
+[2025-02-28T07:30:18.953Z] [CACHE MISS] GET /clear-cache
+[2025-02-28T07:30:20.221Z] [ERROR] GET /clear-cache - Request failed with status code 404
+[2025-02-28T07:31:01.811Z] [CACHE MISS] GET /products
+[2025-02-28T07:31:05.831Z] [CACHE HIT] GET /products
+[2025-02-28T07:34:32.061Z] [CACHE MISS] GET /products
+[2025-02-28T07:34:35.565Z] [CACHE HIT] GET /products
+[2025-02-28T07:34:37.979Z] [CACHE HIT] GET /products
+[2025-02-28T07:44:12.769Z] [CACHE MISS] GET /products
+[2025-02-28T07:45:23.230Z] [CACHE MISS] GET /products/1?ttl=120
+[2025-02-28T07:47:26.129Z] [CACHE MISS] GET /products/1
+[2025-02-28T07:47:43.581Z] [CACHE MISS] GET /products/
+[2025-02-28T07:49:19.521Z] [CACHE MISS] GET /products/
+[2025-02-28T07:50:04.804Z] [CACHE HIT] GET /products/
+[2025-02-28T07:50:35.636Z] [CACHE MISS] GET /products/1?ttl=120
+[2025-02-28T07:51:25.320Z] [CACHE MISS] GET /products/
+[2025-02-28T07:51:30.996Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:32.398Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:33.770Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:35.844Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:36.958Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:38.031Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:38.873Z] [CACHE HIT] GET /products/
+[2025-02-28T07:51:48.251Z] [CACHE MISS] GET /products/1?ttl=30
+[2025-02-28T07:51:54.189Z] [CACHE HIT] GET /products/
+[2025-02-28T07:52:51.114Z] [CACHE MISS] GET /set-eviction-policy
+[2025-02-28T07:52:53.346Z] [ERROR] GET /set-eviction-policy - Request failed with status code 404
+[2025-02-28T07:53:12.472Z] [CACHE MISS] GET /set-eviction-policy
+[2025-02-28T07:53:14.964Z] [ERROR] GET /set-eviction-policy - Request failed with status code 404
+[2025-02-28T07:53:21.308Z] [CACHE MISS] GET /set-eviction-policy
+[2025-02-28T07:53:23.522Z] [ERROR] GET /set-eviction-policy - Request failed with status code 404
+[2025-02-28T07:53:45.935Z] [CACHE MISS] GET /clear-cache
+[2025-02-28T07:53:47.439Z] [ERROR] GET /clear-cache - Request failed with status code 404
+[2025-02-28T07:54:29.102Z] [CACHE MISS] GET /products/
+[2025-02-28T07:54:50.329Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:29.678Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:38.729Z] [CACHE MISS] GET /products/
+[2025-02-28T07:55:41.396Z] [CACHE MISS] GET /products/
+[2025-02-28T07:55:45.632Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:48.623Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:50.101Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:51.230Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:52.366Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:53.433Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:54.426Z] [CACHE HIT] GET /products/
+[2025-02-28T07:55:55.385Z] [CACHE HIT] GET /products/
+[2025-02-28T07:56:22.356Z] [CACHE MISS] GET /products/
+[2025-02-28T07:56:45.606Z] [CACHE HIT] GET /products/
+[2025-02-28T07:59:04.792Z] [CACHE MISS] GET /products/
+[2025-02-28T07:59:13.049Z] [CACHE HIT] GET /products/
+[2025-02-28T08:00:29.824Z] [CACHE MISS] GET /products/1
+[2025-02-28T08:00:33.807Z] [CACHE HIT] GET /products/1
+[2025-02-28T09:51:08.006Z] [CACHE MISS] GET /products
+[2025-02-28T09:51:14.727Z] [CACHE HIT] GET /products
